@@ -412,7 +412,8 @@ footer p {
   color: #555;
 }
 footer span {
-  color: red;
+  color: #2ecc71;
+  font-weight: 600;
 }
 
 

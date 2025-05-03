@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | E-Learning</title>
+    <link rel="stylesheet" href="stylesheet.css">
+<style>
+    body{
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    
+    }    
+    </style>
+
+</head>
+
+<body>
+
+    <div class="register-container">
+        <h2>Sign Up</h2>
+        <form action="#" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="input-box">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+            <div style="text-align: start ;">
+                <label style="margin-left: 25px;font-weight: 600;">Select Role:</label>
+                <div class="checkbox-group">
+                    <label>
+                        <input type="radio" name="role" value="student" required> Student
+                    </label>
+                    <label>
+                        <input type="radio" name="role" value="instructor" required> Instructor
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="login-btn">Register</button>
+            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+
+</body>
+</html>

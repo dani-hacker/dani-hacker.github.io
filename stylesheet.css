@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   
   /* Specific sizes */
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #2ecc71;
     padding-bottom: 5px;
   }
@@ -425,23 +425,24 @@ footer span {
     margin-bottom: 100px;
     background: #f8f9fa;
     text-align: center;
-    height: 350px;
+    height: 650px;
     align-content: center;
-    background-image: url('https://i.pinimg.com/736x/9c/51/77/9c5177d4ce5ef4433cad282226e8f0e3.jpg'); ;
+    background-image: url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.our-courses h2{
-    margin-bottom: 20px;
-    color: #121212;
-    font-size: 2.5rem;
+.course-intro{
+
+    background: #05050586;
+    text-align: center;
+    align-content: center;
 }
 
 .our-courses p{
     margin-bottom: 20px;
-    color: #121212;
+    color: #ffffff;
     font-size: 1.2rem;
 }
 
@@ -461,7 +462,7 @@ footer span {
     padding: 10px;
     box-shadow: black 2px 2px 10px -4px;
     width: 300px;
-    height: 430px;
+    height: 450px;
     text-align: center;
     margin-bottom: 30px;
 }

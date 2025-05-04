@@ -908,5 +908,76 @@ footer{
 }
 
 
+/* dashboard */
+
+.Dashboard-content{
+  width : 100%;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 650px;
+  width: 100%;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+  color: #00ff99;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  color: #00ff99;
+}
 
 
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.topbar input {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  flex: 1 1 250px;
+  border-left: 5px solid #00ff99;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}

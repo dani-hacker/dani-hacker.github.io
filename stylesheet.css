@@ -139,13 +139,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
+  }
+
+.login-btn a {
+  text-decoration: none;
+  color: #000000;
 }
+
 
 .login-btn:hover {
     border-radius: 30px;
     color: #2ee616;
     font-weight: 600;
-    box-shadow: inset rgba(0, 0, 0, 0.595) 2px 2px 15px -2px;
+    box-shadow: inset rgba(0, 0, 0, 0.595) 3px 3px 5px 1px;
+    
+}
+
+.login-btn:hover a {
+  color: #2ee616;
+  text-shadow: #fc0000  3px 3px 15px 5px;
+
 }
 
 .register-link {
@@ -200,6 +213,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #121212;
     font-size: 16px;
     padding-left: 15px;
+    opacity: 0.5;
 }
 
 
@@ -682,8 +696,9 @@ footer span {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    filter: brightness(0.3); /* darken the image */
+     /* darken the image */
   }
+
   
   .overlay-text {
     position: absolute;
@@ -797,6 +812,9 @@ footer span {
     cursor: pointer;
   }
 
+  #navbar{
+    display: none;
+  }
 
 
   @media (max-width: 768px) {

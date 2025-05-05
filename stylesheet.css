@@ -88,6 +88,14 @@ h1, h2, h3, h4, h5, h6 {
     height: 400px;
     backdrop-filter: blur(8px);
 }
+.register-body{
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}  
 
 .register-container {
     padding: 20px;

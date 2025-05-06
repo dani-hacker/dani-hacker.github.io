@@ -10,7 +10,8 @@
     <!-- Header Section -->
     <header class="header">
       <div class="logo">
-        <img src="web_logo.png" alt="Logo">
+        <a href="index.html">
+          <img src="web_logo.png" alt="Logo"></a>
       </div>
     
       <div class="search-toggle" id="search">🔍</div>
@@ -159,6 +160,27 @@
         </div>
         <p>&copy; 2025 E-Learning Platform | <span>Made with ❤️ by Crime Partners</span></p>
     </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.getElementById('mobile-menu');
+      const navbar = document.getElementById('navbar');
+      menuToggle.addEventListener('click', () => {
+        navbar.classList.toggle('active');
+      });
+    
+      // Search bar toggle
+      const searchToggle = document.getElementById('search');
+      console.log(searchToggle);
+      
+      const searchBar = document.querySelector('.search-bar');
+      console.log(searchBar);
+      
+      searchToggle.addEventListener('click', (e) => {
+          
+        searchBar.classList.toggle('active');
+      });
+    </script>
     
 </body>
 </html>

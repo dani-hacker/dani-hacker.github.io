@@ -16,40 +16,39 @@
 <body>
     <!-- Header Section -->
     <header class="header">
-        <a href="index.html" class="logo-link">
-            <img src="web_logo.png" alt="skillify Learn logo" class="logo" >
-        </a>
-        <div class="search-bar">
-            <input type="text" placeholder="Search for courses, instructors, or topics...">
-            <button class="search-btn">Search</button>
+      <div class="logo">
+        <img src="web_logo.png" alt="Logo">
+      </div>
+    
+      <div class="search-toggle" id="search">🔍</div>
+    
+      <div class="search-bar" id="search-bar">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    
+      <nav class="navbar" id="navbar">
+        <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="course list.html">Courses</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact us.html">Contact</a></li>
+              <li><a href="dashboard.html">Dashboard</a></li>
+
+          </ul>
+          
+      </nav>
+      
+      <div class="menu-toggle" id="mobile-menu">
+          ☰
         </div>
         
-          <!-- Hamburger Menu -->
-          <div class="menu-icon" onclick="toggleMenu()">
-            ☰
-          </div>
-        
-          <div class="nav" id="navbar">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Courses</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        
-          
-        
-        <nav class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="course list.html">Courses</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact us.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="auth-btn"> <a href="login.html" style="text-decoration: none; color: black;">Login</a></button>
-    </header>
+      <div class="auth-btn">
+          <button>Login</button>
+      </div>
+      
+      
+  </header>
 
     <!-- Main Content -->
     <main class="about-us" >

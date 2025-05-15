@@ -37,7 +37,9 @@
       </div>
       
     <div class="auth-btn">
-        <button>Login</button>
+        <a href ="login.html">
+          <button>Login</button>
+          </a>
     </div>
     
     
@@ -85,7 +87,7 @@
     // Mobile menu toggle
     const menuToggle = document.getElementById('mobile-menu');
     const navbar = document.getElementById('navbar');
-    menuToggle.addEventListener('click', () => {
+    menuToggle.addEventListener('click', (e) => {
       navbar.classList.toggle('active');
     });
   
